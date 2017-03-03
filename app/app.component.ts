@@ -1,9 +1,5 @@
 import {Component} from '@angular/core';
 
-/*
- * App Component
- * Top Level Component
- */
 @Component({
   selector: 'app',
   styles: [`
@@ -21,21 +17,16 @@ import {Component} from '@angular/core';
   `],
   template: `
     <header>
-      <h1>Hello {{ name }}</h1>
+      <h1>RPG Tools</h1>
     </header>
-    <navbar></navbar>
     <main>
       <router-outlet></router-outlet>
     </main>
     <footer>
-      Brunch for Angular 2 by <a [href]="url">Colin Bate</a>
+      RPG Tools &copy; Peter Haldenby 2017
     </footer>
   `
 })
 export class AppComponent {
-  name: string = 'Brunch for Angular 2';
-  url: string = 'http://colin.is/blog';
-  constructor() {
-
-  }
+  name: string = 'RPG Tools';
 }

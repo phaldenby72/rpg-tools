@@ -6,13 +6,11 @@ import {Component, OnInit} from '@angular/core';
   template: require('./home.component.html')
 })
 export class HomeComponent implements OnInit {
-  public title: any;
+  public title: string = 'RPG Tools';
   constructor() {
-    const initial = { value: 'Angular 2' };
-    this.title = { ...initial }; // Object spread in TypeScript 2.1!
   }
 
   ngOnInit() {
-    console.log('Hello Home component');
+    console.log('Home component initialised');
   }
 }
