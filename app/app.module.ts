@@ -5,6 +5,8 @@ import {routing} from './app.routes';
 import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home';
+import { NavBarComponent } from './navbar.component';
+import { DayLengthComponent } from './dayLength';
 
 @NgModule({
     imports: [
@@ -15,7 +17,9 @@ import {HomeComponent} from './home';
     ],
     declarations: [
         AppComponent,
-        HomeComponent
+        HomeComponent,
+        NavBarComponent,
+        DayLengthComponent
     ],
     providers: [],
     bootstrap: [AppComponent]

@@ -19,6 +19,7 @@ import {Component} from '@angular/core';
     <header>
       <h1>RPG Tools</h1>
     </header>
+    <navbar></navbar>
     <main>
       <router-outlet></router-outlet>
     </main>
