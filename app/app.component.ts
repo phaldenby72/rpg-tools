@@ -15,18 +15,7 @@ import {Component} from '@angular/core';
       padding-top: 0.5em;
     }
   `],
-  template: `
-    <header>
-      <h1>RPG Tools</h1>
-    </header>
-    <navbar></navbar>
-    <main>
-      <router-outlet></router-outlet>
-    </main>
-    <footer>
-      RPG Tools &copy; Peter Haldenby 2017
-    </footer>
-  `
+  template: require('./app.component.html')
 })
 export class AppComponent {
   name: string = 'RPG Tools';

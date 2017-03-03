@@ -25,17 +25,6 @@ import {Component} from '@angular/core';
       color: #fff;
     }
   `],
-  template: `
-    <nav>
-      <ul>
-        <li>
-          <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
-        </li>
-        <li>
-          <a routerLink="daylength" routerLinkActive="active">Day Length Calculator</a>
-        </li>
-      </ul>
-    </nav>
-  `
+  template: require('./navbar.component.html')
 })
 export class NavBarComponent {}

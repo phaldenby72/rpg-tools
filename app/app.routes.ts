@@ -1,7 +1,7 @@
 import {Routes, RouterModule} from '@angular/router';
 
 import {HomeComponent} from './home';
-import {DayLengthComponent} from './dayLength';
+import {DayLengthComponent} from './day-length';
 
 export const routes: Routes = [
   {path: '', component: HomeComponent, pathMatch: 'full'},
