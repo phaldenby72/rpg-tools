@@ -20,7 +20,7 @@ exports.config = {
   plugins: {
     inlineCss: {
       html: true,
-      passthrough: [/^node_modules/, 'app/global.css']
+      passthrough: [/^node_modules/, 'app/global.css', 'app/shared/css/*.css']
     },
     brunchTypescript: {
       ignoreErrors: true
